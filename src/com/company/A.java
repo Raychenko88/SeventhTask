@@ -1,7 +1,7 @@
 package com.company;
 
 public class A {
-    public int show (int one, int two) throws MyException{
+    public static int show (int one, int two) throws MyException{
         if (one == 0 || two == 0){
             throw new MyException("Something went wrong");
         }

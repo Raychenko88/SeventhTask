@@ -1,6 +1,6 @@
 package com.company;
 
-public class MyException extends RuntimeException {
+public class MyException extends Exception {
 
     public MyException() {
     }
